@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Sports Updates</title>
+
+<style>
+*{box-sizing:border-box}
+body{
+ margin:0;
+ background:#101522;
+ color:white;
+ font-family:Arial,sans-serif;
+}
+header{
+ background:#080d18;
+ padding:20px;
+ text-align:center;
+}
+header h1{color:#21df91;margin:0}
+nav{
+ display:flex;
+ justify-content:center;
+ flex-wrap:wrap;
+ gap:12px;
+ padding:15px;
+ background:#171f30;
+}
+nav a{
+ color:white;
+ text-decoration:none;
+ padding:10px 16px;
+ background:#26334a;
+ border-radius:7px;
+}
+.container{padding:20px;max-width:1000px;margin:auto}
+h2{color:#21df91}
+.countries{
+ display:grid;
+ grid-template-columns:repeat(auto-fit,minmax(110px,1fr));
+ gap:12px;
+}
+.country{
+ background:#202c40;
+ padding:17px 8px;
+ text-align:center;
+ border-radius:9px;
+}
+.country span{font-size:27px;display:block;margin-bottom:7px}
+.live{
+ background:linear-gradient(135deg,#183e37,#142b45);
+ padding:30px 15px;
+ border-radius:12px;
+ text-align:center;
+ margin-top:25px;
+}
+.live h2{font-size:28px}
+.watch{
+ display:inline-block;
+ background:#18c982;
+ color:#07140e;
+ padding:13px 25px;
+ border-radius:7px;
+ text-decoration:none;
+ font-weight:bold;
+ margin-top:12px;
+}
+footer{
+ text-align:center;
+ background:#080d18;
+ padding:20px;
+ margin-top:30px;
+ color:#aaa;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>⚽ MY SPORTS UPDATES</h1>
+<p>Football | Basketball | Live Sports</p>
+</header>
+
+<nav>
+<a href="#football">Football</a>
+<a href="#basketball">Basketball</a>
+<a href="#others">Others</a>
+<a href="#live">Live Updates</a>
+</nav>
+
+<div class="container">
+
+<section id="football">
+<h2>🌍 Football Nations</h2>
+<div class="countries">
+<div class="country"><span>🇦🇷</span>Argentina</div>
+<div class="country"><span>🇧🇷</span>Brazil</div>
+<div class="country"><span>🇫🇷</span>France</div>
+<div class="country"><span>🏴</span>England</div>
+<div class="country"><span>🇩🇪</span>Germany</div>
+<div class="country"><span>🇵🇹</span>Portugal</div>
+<div class="country"><span>🇪🇸</span>Spain</div>
+<div class="country"><span>🇮🇹</span>Italy</div>
+<div class="country"><span>🇯🇵</span>Japan</div>
+<div class="country"><span>🇲🇽</span>Mexico</div>
+<div class="country"><span>🇲🇦</span>Morocco</div>
+<div class="country"><span>🇪🇬</span>Egypt</div>
+</div>
+</section>
+
+<section id="basketball">
+<h2>🏀 Basketball</h2>
+<p>Basketball news and updates coming soon.</p>
+</section>
+
+<section id="others">
+<h2>🏆 Other Sports</h2>
+<p>More sports updates coming soon.</p>
+</section>
+
+<section id="live" class="live">
+<h2>🔴 SPORTS UPDATES</h2>
+<p>Follow the latest sports updates.</p>
+<a class="watch"
+href="https://wchdtv.live/updates/"
+target="_blank" rel="noopener noreferrer">
+VISIT SPORTS UPDATES
+</a>
+</section>
+
+</div>
+
+<footer>
+<p>© 2026 My Sports Updates</p>
+<p>Independent Sports Updates Website</p>
+</footer>
+
+</body>
+</html>
